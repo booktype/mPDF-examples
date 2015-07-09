@@ -1,0 +1,48 @@
+@page {
+        sheet-size: 234mm 297mm;   
+        size: 215mm 279mm;
+
+        margin-left: 10mm;
+        margin-right: 10mm;
+        margin-top: 20mm;
+        margin-bottom: 20mm;
+
+        margin-header: 10mm;
+        margin-footer: 10mm;
+
+        odd-footer-name: footer-right;
+        even-footer-name: footer-left;
+
+        marks: crop cross;    
+}
+
+@page :first {
+    footer: none;
+}
+
+@page frontmatter {
+        sheet-size: 234mm 297mm;   
+        size: 215mm 279mm;
+
+        margin-left: 10mm;
+        margin-right: 10mm;
+        margin-top: 20mm;
+        margin-bottom: 20mm;
+
+        margin-header: 10mm;
+        margin-footer: 10mm;
+        footnote: none;
+
+        marks: crop cross;    
+}
+
+div.frontmatter {
+        page: frontmatter;
+        page-break-after: always;
+}
+
+h1.book-title {
+        text-align: center;
+}
+
+
