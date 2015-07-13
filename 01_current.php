@@ -15,7 +15,7 @@ $mpdf = new mPDF('s', array(234,297));
 $mpdf->mirrorMargins = 1;
 $mpdf->bleedMargin = 4;
 
-$mpdf->h2toc = array(); 
+$mpdf->h2toc = array();
 
 $mpdf->WriteHTML($style_data, 1);
 
@@ -26,6 +26,8 @@ $mpdf->WriteHTML($html, 2);
 $mpdf->SetTitle("An Example Title");
 $mpdf->SetAuthor("Aco");
 $mpdf->SetCreator("Booktype 2.0 and mPDF 6.0");
+$mpdf->SetSubject("History");
+$mpdf->SetKeywords("Middle Ages, Jet Travel");
 
 $mpdf->Output();
 
