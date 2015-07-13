@@ -15,8 +15,6 @@ $mpdf = new mPDF('s', array(234,297));
 $mpdf->mirrorMargins = 1;
 $mpdf->bleedMargin = 4;
 
-$mpdf->h2toc = array();
-
 $mpdf->WriteHTML($style_data, 1);
 
 $mpdf->WriteHTML($frontmatter_data, 2);
