@@ -1,5 +1,5 @@
 @page {
-        size: 215mm 279mm;
+        size: 190mm 277mm;
 
         margin-left: 20mm;
         margin-right: 10mm;
@@ -13,6 +13,16 @@
         
         odd-footer-name: html_footer-right;
         even-footer-name: html_footer-left;
+}
+
+body {
+        font-family: sun-exta;
+        font-size: 12pt;
+}
+
+div.mpdf_toc  {
+  font-size: 1.2rem;
+  font-family: sun-exta;
 }
 
 h1.book-title, p.title-page {

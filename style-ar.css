@@ -1,0 +1,24 @@
+@page {
+        size: 190mm 277mm;
+
+        margin-left: 20mm;
+        margin-right: 10mm;
+        margin-top: 20mm;
+        margin-bottom: 20mm;
+        
+        margin-header: 10mm;
+        margin-footer: 10mm;
+        
+        marks: crop cross;
+        
+        odd-footer-name: html_footer-right;
+        even-footer-name: html_footer-left;
+}
+
+body {
+        font-family: dejavusanscondensed;
+}
+
+h1.book-title, p.title-page {
+        text-align: center;
+}
