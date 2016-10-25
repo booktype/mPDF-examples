@@ -44,3 +44,9 @@ Place: Localisation, Floor 6 - 607
   * `php arabic.php`
   * `php chinese.php`
   * `php english.php`
+* Check the results in your PDF viewer, e.g. on Debian/Ubuntu:
+  * `evince arabic.pdf`
+* Examine the PHP and source files, e.g:
+  * `bluefish arabic.php`
+  
+## Comments to https://github.com/booktype/mPDF-examples/issues please!  
