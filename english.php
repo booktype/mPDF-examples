@@ -1,6 +1,6 @@
 <?php
 
-include("../mpdf.php");
+include("../mpdf-6.1.2/mpdf.php");
 
 $style_data = file_get_contents("style-en.css");
 $frontmatter_data = file_get_contents("frontmatter-en.html");
