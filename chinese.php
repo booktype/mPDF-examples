@@ -1,6 +1,6 @@
 <?php
 
-include("../mpdf.php");
+include("../mpdf-6.1.2/mpdf.php");
 
 $html_data = file_get_contents("body-cn.html");
 $style_data = file_get_contents("style-cn.css");
