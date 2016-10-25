@@ -27,8 +27,20 @@ Place: Localisation, Floor 6 - 607
   * Mac (enabled by default)
 * Check PHP version installed with `php -v`
 
-## Download and test mPDF
+## Download and install mPDF and examples
 
-* Download https://github.com/mpdf/mpdf/archive/v6.1.2.zip
-* unzip v6.1.2.zip
+* Download and unpack mPDF
+  * `wget https://github.com/mpdf/mpdf/archive/v6.1.2.zip`
+  * `unzip v6.1.2.zip`
+* Download and unpack the tutorial examples
+  * `wget https://github.com/booktype/mPDF-examples/archive/v0.1.zip`
+  * `unzip v0.1.zip`
+* Change to the examples directory
+  * `cd mPDF-examples-0.1`
+  
+## Run the example PHP scripts
 
+* Run each script by name:
+  * `php arabic.php`
+  * `php chinese.php`
+  * `php english.php`
